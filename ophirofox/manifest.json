@@ -74,7 +74,8 @@
     "https://nouveau-europresse-com.proxy-bu1.u-bourgogne.fr/*",
     "https://nouveau-europresse-com.ezproxy.normandie-univ.fr/*",
     "https://nouveau-europresse-com.bibdocs.u-cergy.fr/*",
-    "https://nouveau-europresse-com.ezproxy.univ-paris3.fr/*"
+    "https://nouveau-europresse-com.ezproxy.univ-paris3.fr/*",
+    "https://nouveau-europresse-com.ezproxy.campus-condorcet.fr/*"
   ],
   "background": {
     "scripts": [
@@ -359,6 +360,10 @@
         {
           "name": "Conservatoire national des arts et métiers",
           "AUTH_URL": "https://proxybib-pp.cnam.fr/login?url=https://nouveau.europresse.com/access/ip/default.aspx?un=CNAM"
+        },
+        {
+          "name": "EHESS",
+          "AUTH_URL": "https://login.ezproxy.campus-condorcet.fr/login?qurl=https://nouveau.europresse.com%2f"
         },
         {
           "name": "ENSAM",
